@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+body,
+html{
+    background:#FFD83B;
+    
+/*    color: #83726B;*/
+}
+.tip-calculator-title{
+    text-align: center;
+}
+
+.main-container{
+    text-align: center;
+    margin:auto;
+    border: black solid 5px;
+    width:40%;
+    height:auto;
+    background: #13B5E9;
+    
+    padding:30px;
+    margin-top:20px;
+    font-size:120%
+}
+.tips-container{
+    margin:10px;
+    overflow-y: none;
+    overflow-x: none;
+
+}
+.tips{
+    padding:5px;
+}
+
+
+.calculateBtn-container{
+    margin:10px;
+}
+
+input{
+    background-color:#FFD83B;
+    border:1px black solid;
+    box-shadow: 0px 1px 1px 1px; 
+}

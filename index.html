@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+  <title>Tip Calculator</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Tip Calculator">
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="author" content="Azza Bruce">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/styles.css" type="text/css"> 
+</head>
+<body>
+    <!--Start of the Calculator container--->
+    <h1 class="tip-calculator-title">Tip Calculator</h1>
+    <div class="main-container">
+        <h4>Please enter bill amount in dollars and then click on the pecentage you wish to tip your waiter:</h4>
+        <div class="amount-container">
+            <label>Bill Amount $</label>
+            <input type="text" name="text" id="billAmount">
+        </div>
+        <div class="tips-container">
+            <div>
+             <div class="10percent-container tips">
+                <input type="button" name="button" id="tenPercentTip" value="10%">
+             </div>
+             <div class="15percent-container tips">
+                <input type="button" name="button" id="fifteenPercentTip" value="15%">
+             </div>
+             <div class="20percent-container tips">
+                <input type="button" name="" id="twentyPercentTip" value="20%">
+             </div>
+            </div>
+        </div>
+        <div class="tipAmount-contanier">
+            <label>Tip Amount $</label>
+            <input type="text" name="tip-amount" id="tipAmount" >
+        </div>
+<!--
+             <div class="noTip-contanier tips">
+                <input type="button" name="" id="" value="No Tip">
+             </div>
+-->
+         <div class="calculateBtn-container">
+              <div class="calculate-bottom">
+                <input type="button" id="calculate"  value="Calculate">
+              </div>
+        </div>
+        <div class="message-container">
+            <p id="message"></p>
+        </div>
+    </div>
+    <!--Calculator container ends--->
+    <script src="js/script.js"></script>
+</body>
+</html>
